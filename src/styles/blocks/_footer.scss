@@ -1,0 +1,157 @@
+.footer {
+	&__wrapper {
+		max-width: 1000px;
+		margin: 0 auto;
+		padding-top: 120px;
+		padding-bottom: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__links {
+		display: flex;
+		justify-content: center;
+		margin-right: 90px;
+
+		&-item {
+			margin-right: 75px;
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+
+		&-title {
+			margin-bottom: 40px;
+			font-size: 24px;
+			line-height: 30px;
+			letter-spacing: 0.1px;
+		}
+
+		&-link {
+			display: block;
+			margin-bottom: 20px;
+			text-decoration: none;
+			color: $secondary-text;
+			font-weight: 500;
+
+			&:hover {
+				color: $accent;
+			}
+		}
+	}
+
+	&__subscribe {
+		max-width: 39%;
+
+		&-title {
+			margin-bottom: 20px;
+			font-weight: 700;
+			font-size: 24px;
+			line-height: 30px;
+			letter-spacing: 0.1px;
+		}
+
+		&-subtitle {
+			display: inline-block;
+			max-width: 84%;
+			margin-bottom: 15px;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 22px;
+			letter-spacing: 0.2px;
+			color: $secondary-text;
+		}
+
+		&-form {
+			display: flex;
+			align-items: center;
+			margin-bottom: 20px;
+		}
+
+		&-input {
+			margin-right: 5px;
+			background: #efefef;
+			border: 1px solid #d0d0d0;
+			border-radius: 6px;
+			padding: 11px 8px;
+			font-family: $default-font;
+			letter-spacing: 0.2px;
+			line-height: 22px;
+			font-size: 16px;
+			text-align: center;
+
+			&::placeholder {
+				font-weight: bold;
+				font-size: 15px;
+				line-height: 24px;
+				letter-spacing: 0.2px;
+				color: $secondary-text;
+			}
+
+			&:active, &:focus {
+				outline: none;
+			}
+		}
+
+		&-btn {
+			padding: 15px 40px;
+
+			&:hover {
+				box-shadow: none;
+			}
+		}
+
+		&-link {
+			margin-right: 25px;
+			width: 40px;
+			height: 40px;
+
+			&--tw:hover #tw {
+				fill: #1da1f2;
+			}
+
+			&--fb:hover #fb {
+				fill: #3b5998;
+			}
+
+			&--ln:hover #ln {
+				fill: #2977c9;
+			}
+		}
+	}
+}
+
+@media (max-width: 980px) {
+	.footer-content {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer__links {
+		display: none;
+	}
+
+	.footer__subscribe {
+		max-width: 100%;
+		text-align: center;
+
+		&-form {
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		&-input {
+			margin-bottom: 15px;
+		}
+	}
+
+	.footer__links {
+		flex-direction: column;
+
+		&-item {
+			margin: 0 0 20px 0;
+		}
+	}
+}

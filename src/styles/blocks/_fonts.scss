@@ -1,0 +1,53 @@
+.fonts {
+   display: flex;
+   justify-content: center;
+
+   &__wrapper {
+      max-width: 100%;
+      margin-bottom: 150px;
+      padding: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+
+   &__images {
+      margin-left: 60px;
+
+      &-2 {
+         bottom: -60px;
+         left: -40px;
+      }
+   }
+
+   &__heading {
+      text-align: left;
+      margin-right: 60px;
+   }
+
+   &__title {
+      margin-bottom: 25px;
+      text-transform: none;
+   }
+
+   &__subtitle {
+      margin-bottom: 25px;
+   }
+
+   &__link {
+      text-transform: uppercase;
+      color: $secondary;
+      text-decoration: none;
+
+      &:hover {
+         color: $accent;
+      }
+   }
+}
+
+@media only screen and (max-width: 980px) {
+   .fonts__content {
+      flex-direction: column;
+   }
+}
+

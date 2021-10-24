@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+html(lang="ru")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    meta(content="ie=edge" http-equiv="x-ua-compatible")
+    title Finteck
+    link(rel="stylesheet" href="styles/main.min.css")
+  body
+    .header-bg
+    .container
+      header.header
+        .header__wrapper 
+          .header-heading
+            img.header__logo(src="images/logo.svg" alt="Логотип")
+            nav.header__nav
+              a.header__nav-link(href="#focus") Focus
+              a.header__nav-link(href="#fonts") Fonts
+              a.header__nav-link(href="#features") Features 
+              a.header__nav-link(href="#clients") Clients
+              a.header__nav-link(href="#testimonials") Testimonias
+              a.header__nav-link(href="#price") Price
+              a.header__nav-link(href="#footer") Contacts
+            button.header-heading__btn Sign Up
+          .header__content
+            .header__content-title Supercharge your </br> Symbols
+            .header__content-subtitle Most calendars are designed for teams. Slate is designed for </br> freelancers who want a simple way to plan their schedule.
+            button.btn.btn--blue.header__content-btn Try For Free
+            .header__img 
+              img(src="images/header/header-image.png" alt="Компьютер")
+        //- Главный контент сайта
+      main
+        //- секция Focus
+        section.focus#focus
+          .focus__wrapper
+            .images.focus__images
+              img.images__1.focus__images-1(src="images/focus/focus-1.png" alt="Фокус 1")
+              img.images__2.focus__images-2(src="images/focus/focus-2.png" alt="Фокус 2")
+            .focus__heading
+              .focus__title.section-title We focus on ergonomics </br> and meeting you where </br>you work. 
+              .focus__subtitle.section-subtitle Most calendars are designed for teams. </br> Slate is designed for freelancers who want a simple </br> way to plan their schedule.
+              a.focus__link(href="#") Learn more
+
+        //- секция Fonts
+        section.fonts#fonts
+          .fonts__wrapper
+            .fonts__heading
+              .fonts__title.section-title OpenType features</br> and Variable fonts
+              .fonts__subtitle.section-subtitle Most calendars are designed for teams. Slate is designed</br> for freelancers who want a simple way to plan</br> their schedule.
+              a.fonts__link(href="#") Learn more
+            .images.fonts__images
+              img.images__1.fonts__images-1(src="images/fonts/fonts-1.png" alt="Шрифты 1")
+              img.images__2.fonts__images-2(src="images/fonts/fonts-2.png" alt="Шрифты 2")
+
+        //- секция Features
+        section.features#features
+          .features__wrapper 
+            .features__title.section-title Features
+            .features__subtitle.section-subtitle Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.
+            .features__content
+              .images.features__images
+                img.images__1.features__images-1(src="images/features/features-1.png" alt="Фича 1")
+                img.images__2.features__images-2(src="images/features/features-2.png" alt="Фича 2")
+              .features-items
+                .features__item
+                  .features__item-title.features__item-title--1 A single source of truth
+                  .features__item-text When you add work to your Slate calendar we automatically calculate useful insights 
+                .features__item 
+                  .features__item-title.features__item-title--2 Intuitive interface
+                  .features__item-text When you add work to your Slate calendar we automatically calculate useful insights 
+                .features__item 
+                  .features__item-title.features__item-title--3 Or with rules
+                  .features__item-text When you add work to your Slate calendar we automatically calculate useful insights
+
+        //- Секция SEO
+        section.seo
+          .seo__wrapper 
+            .seo__items
+              .seo__item
+                .seo__item-title.seo__item-title--1 A single source
+                .seo__item-text When you add work to your Slate calendar we automatically calculate useful insights 
+              .seo__item 
+                .seo__item-title.seo__item-title--2 Intuitive interface
+                .seo__item-text When you add work to your Slate calendar we automatically calculate useful insights 
+              .seo__item 
+                .seo__item-title.seo__item-title--2 Or with rules
+                .seo__item-text When you add work to your Slate calendar we automatically calculate useful insights
+
+        //- Секция Clients
+        section.clients#clients
+          .clients__wrapper 
+            .clients__title.section-title Clients
+            .clients__subtitle.section-subtitle We focus on ergonomics and meeting you where you work.</br> It's only a keystroke away.
+            .clients-content
+              .clients-items
+                .clients__item
+                  .clients__item-heading
+                    span.clients__name Client name
+                    .clients__logo 
+                      img(src="images/clients/clients-icon-1.svg" alt="Клиент 1" srcset="")
+                  .clients__item-descr Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
+                .clients__item
+                  .clients__item-heading
+                    span.clients__name Client name
+                    .clients__logo 
+                      img(src="images/clients/clients-icon-2.svg" alt="Клиент 2" srcset="")
+                  .clients__item-descr Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
+                .clients__item
+                  .clients__item-heading
+                    span.clients__name Client name
+                    .clients__logo 
+                      img(src="images/clients/clients-icon-3.svg" alt="Клиент 3" srcset="")
+                  .clients__item-descr Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
+                .clients__item
+                  .clients__item-heading
+                    span.clients__name Client name
+                    .clients__logo 
+                      img(src="images/clients/clients-icon-4.svg" alt="Клиент 4" srcset="")
+                  .clients__item-descr Slate helps you see how many more days you need to work to reach your financial goal for the month and year. 
+              button.clients__btn.btn.btn--red All clients
+
+        //- секция Testimonials
+        section.testimonials#testimonials
+          .testimonials__wrapper
+            .testimonials__title.section-title Testimonials
+            .testimonials-content
+              .testimonials-items
+                .testimonials__item.testimonials__item
+                  .testimonials__item-heading
+                    span.testimonials__item-name Esther Webb</br>
+                    span.testimonials__item-position Designer
+                  p.testimonials__item-text Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year your financial goal for the month and
+                .testimonials__item.testimonials__item
+                  .testimonials__item-heading
+                    span.testimonials__item-name Esther Webb</br>
+                    span.testimonials__item-position Designer
+                  p.testimonials__item-text Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year.your financial goal for the month 
+                .testimonials__item.testimonials__item
+                  .testimonials__item-heading
+                    span.testimonials__item-name Esther Webb</br>
+                    span.testimonials__item-position Designer
+                  p.testimonials__item-text Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year.your financial goal for the month and year.
+                .testimonials__item.testimonials__item
+                  .testimonials__item-heading
+                    span.testimonials__item-name Esther Webb</br>
+                    span.testimonials__item-position Designer
+                  p.testimonials__item-text Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year.your financial goal for the month and year.
+
+        //- секция Price
+        section.price#price
+          .price__wrapper
+            .price__title.section-title Price Tables
+            .price__cards
+              .price__card
+                .price__heading
+                  span.price__heading-title Free
+                  p.price__heading-descr Brief price description
+                .price__cost
+                  .price__cost-value 0 
+                  .price__cost-interval
+                    .price__cost-currency $ 
+                    .price__cost-time Per / month
+                ul.price__items
+                  li.price__items-item Price item one
+                  li.price__items-item Price item two
+                  li.price__items-item Price item three
+                button.price__btn.btn.btn--blue Order Now
+              .price__card
+                .price__heading
+                  span.price__heading-title Standart
+                  p.price__heading-descr Brief price description
+                .price__cost
+                  .price__cost-value 10 
+                  .price__cost-interval
+                    .price__cost-currency $ 
+                    .price__cost-time Per / month
+                ul.price__items
+                  li.price__items-item Price item one
+                  li.price__items-item Price item two
+                  li.price__items-item Price item three
+                button.price__btn.btn.btn--blue Order Now
+              .price__card
+                .price__heading
+                  span.price__heading-title Premium
+                  p.price__heading-descr Brief price description
+                .price__cost
+                  .price__cost-value 99 
+                  .price__cost-interval
+                    .price__cost-currency $ 
+                    .price__cost-time Per / month
+                ul.price__items
+                  li.price__items-item Price item one
+                  li.price__items-item Price item two
+                  li.price__items-item Price item three
+                button.price__btn.btn.btn--blue Order Now
+
+        //- Футер
+        footer.footer#footer
+          .footer__wrapper
+            //- Блок с ссылками
+            .footer__links
+              .footer__links-item
+                h3.footer__links-title Fingertype
+                a.footer__links-link(href="#") Home
+                a.footer__links-link(href="#") Examples
+                a.footer__links-link(href="#") Pricing
+                a.footer__links-link(href="#") Updates
+              .footer__links-item
+                h3.footer__links-title Resources
+                a.footer__links-link(href="#") Home
+                a.footer__links-link(href="#") Examples
+                a.footer__links-link(href="#") Pricing
+                a.footer__links-link(href="#") Updates
+              .footer__links-item
+                h3.footer__links-title About
+                a.footer__links-link(href="#") Home
+                a.footer__links-link(href="#") Examples
+                a.footer__links-link(href="#") Pricing
+                a.footer__links-link(href="#") Updates
+            //- Блок подписки
+            .footer__subscribe
+              h3.footer__subscribe-title Subscribe to our newsletter
+              h4.footer__subscribe-subtitle Slate helps you see how many more days to work to reach your financial 
+              form.footer__subscribe-form
+                input.footer__subscribe-input(placeholder="Enter Your Email")
+                button.footer__subscribe-btn.btn.btn--red Button
+              .footer__subscribe-socials
+                a(href="#").footer__subscribe-link.footer__subscribe-link--tw
+                  <svg width="34" height="29" viewBox="0 0 34 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path id="tw" d="M33.645 4.17846C32.4202 4.7068 31.0873 5.08705 29.7144 5.23514C31.1398 4.38834 32.2072 3.05052 32.7164 1.4727C31.3788 2.26837 29.9136 2.82631 28.3855 3.12177C27.7469 2.43903 26.9745 1.89514 26.1165 1.52396C25.2585 1.15279 24.3332 0.962307 23.3983 0.964372C19.6159 0.964372 16.5739 4.03036 16.5739 7.7928C16.5739 8.32115 16.6379 8.84949 16.742 9.35782C11.0783 9.06163 6.02705 6.35587 2.66887 2.21318C2.05697 3.25832 1.73632 4.44834 1.74026 5.65942C1.74026 8.02896 2.94505 10.1183 4.78224 11.3471C3.69955 11.3045 2.64222 11.0069 1.69624 10.4785V10.5626C1.69624 13.8808 4.04176 16.6305 7.16779 17.2629C6.58084 17.4154 5.97704 17.4934 5.37062 17.4951C4.92633 17.4951 4.50606 17.4511 4.08178 17.391C4.94634 20.0968 7.46398 22.0621 10.4619 22.1261C8.1164 23.9633 5.17849 25.044 1.98843 25.044C1.41605 25.044 0.887711 25.024 0.339355 24.9599C3.36532 26.9012 6.95565 28.0219 10.8222 28.0219C23.3743 28.0219 30.2428 17.6232 30.2428 8.59733C30.2428 8.30113 30.2428 8.00494 30.2227 7.70875C31.5516 6.73612 32.7164 5.53134 33.645 4.17846Z" fill="#fff"/>
+                  </svg>
+                a(href="#").footer__subscribe-link.footer__subscribe-link--fb
+                  <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path id="fb" d="M31.7103 0.48291H2.25117C1.54271 0.48291 0.970337 1.05528 0.970337 1.76374V31.2229C0.970337 31.9313 1.54271 32.5037 2.25117 32.5037H31.7103C32.4187 32.5037 32.9911 31.9313 32.9911 31.2229V1.76374C32.9911 1.05528 32.4187 0.48291 31.7103 0.48291ZM28.0119 9.82897H25.4542C23.4489 9.82897 23.0607 10.7816 23.0607 12.1825V15.2685H27.8478L27.2234 20.0996H23.0607V32.5037H18.0694V20.1036H13.8947V15.2685H18.0694V11.7062C18.0694 7.57151 20.5951 5.31805 24.2855 5.31805C26.0546 5.31805 27.5716 5.45013 28.0159 5.51017V9.82897H28.0119Z" fill="#fff"/>
+                  </svg>
+                a(href="#").footer__subscribe-link.footer__subscribe-link--ln
+                  <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path id="ln" d="M31.6981 0.48291H2.23896C1.5305 0.48291 0.95813 1.05528 0.95813 1.76374V31.2229C0.95813 31.9313 1.5305 32.5037 2.23896 32.5037H31.6981C32.4065 32.5037 32.9789 31.9313 32.9789 31.2229V1.76374C32.9789 1.05528 32.4065 0.48291 31.6981 0.48291ZM10.4563 27.7686H5.70521V12.4867H10.4563V27.7686ZM8.08275 10.3973C7.53811 10.3973 7.00569 10.2358 6.55283 9.93325C6.09997 9.63066 5.74701 9.20057 5.53859 8.69738C5.33016 8.1942 5.27562 7.6405 5.38188 7.10632C5.48813 6.57214 5.75041 6.08146 6.13553 5.69634C6.52066 5.31121 7.01133 5.04894 7.54552 4.94268C8.0797 4.83643 8.63339 4.89096 9.13658 5.09939C9.63977 5.30782 10.0699 5.66078 10.3724 6.11363C10.675 6.56649 10.8365 7.09891 10.8365 7.64356C10.8325 9.16454 9.59974 10.3973 8.08275 10.3973ZM28.2438 27.7686H23.4968V20.3358C23.4968 18.5626 23.4647 16.2852 21.0272 16.2852C18.5576 16.2852 18.1773 18.2144 18.1773 20.2077V27.7686H13.4342V12.4867H17.9892V14.5761H18.0532C18.6856 13.3753 20.2346 12.1065 22.5481 12.1065C27.3593 12.1065 28.2438 15.2725 28.2438 19.3872V27.7686Z" fill="#fff"/>
+                  </svg>
+
+
+  script(src="scripts/main.min.js")
